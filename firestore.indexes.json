@@ -1,0 +1,13 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "warehouseDocuments",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "type", "order": "ASCENDING" },
+        { "fieldPath": "documentNumber", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
